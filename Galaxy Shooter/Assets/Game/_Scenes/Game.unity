@@ -287,11 +287,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 460952033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.34, z: 0}
+  m_LocalPosition: {x: 0.16, y: 2.47, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &460952037
 MonoBehaviour:
@@ -305,6 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
+  powerupID: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
+  powerupID: 1
 --- !u!58 &1388494902
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -538,7 +540,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.04, y: 0}
@@ -597,11 +599,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1388494900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.09, y: 0, z: 0}
+  m_LocalPosition: {x: 3.71, y: 1.84, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1390250579
 GameObject:
@@ -633,7 +635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d49050c4f614372b91597fa9b6800a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canTripleShot: 1
+  canTripleShot: 0
+  canSpeedBoost: 0
   _laserPrefab: {fileID: 1148665764443118, guid: 62d9b788d787d400cacf577b7606c919,
     type: 2}
   _tripleShotPrefab: {fileID: 1403833636}
